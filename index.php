@@ -18,8 +18,14 @@ if(!isset($_SESSION['establecimiento'])){
 <!-- ESTILOS -->
 <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body onload="InitThis();">
-
+<body onload="InitThis();" class="index">
+<header>
+    <div class="row">
+        <div class="container-fluid">
+            <img src="imagen/logo.svg" alt="" class="center-block">
+        </div>
+    </div>
+</header>
 <div class="container">
     <form action="process.php" method="POST">
         <label for="nombre">Nombre y apellido</label>
@@ -48,7 +54,7 @@ if(!isset($_SESSION['establecimiento'])){
         <input type="hidden" id="imagen" name="imagen">
         <br>
 
-
+        <label for="">Firma</label>
         <div align="center">
             <canvas id="myCanvas" width="500" height="283" style="border:2px solid black;"></canvas>
             <br /><br />

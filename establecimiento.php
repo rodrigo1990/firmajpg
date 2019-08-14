@@ -14,6 +14,13 @@ session_start();
 <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <header>
+    <div class="row">
+        <div class="container-fluid">
+            <img src="imagen/logo.svg" alt="" class="center-block">
+        </div>
+    </div>
+</header>
 
 <div class="container">
     <form action="processEstablecimiento.php" method="POST">
