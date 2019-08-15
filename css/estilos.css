@@ -16,6 +16,10 @@ a:hover{
     color:#af1011;
 }
 
+
+.no-list-style{
+    list-style: none;
+}
 .btn-primary{
     background-color: #fb1415;
     border-color:grey;
@@ -51,8 +55,13 @@ header .row .container-fluid img{
     text-align: justify;
 }
 
-.terminos p, .terminos h1,.terminos h2,.terminos h3{
+.terminos p, .terminos h1,.terminos h2,.terminos h3, ul{
     margin-bottom:30px;
+}
+
+
+.terminos li p{
+
 }
 
 .margin-bottom-10{
@@ -259,7 +268,7 @@ header .row .container-fluid img{
 
 .spinner-sm {
       border: 3px solid grey;
-    border-top: 3px solid rgb(26, 156, 214);
+    border-top: 3px solid #fb1415;
     border-radius: 50%;
     width: 30px;
     height: 30px;
